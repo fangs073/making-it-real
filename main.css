@@ -1,0 +1,133 @@
+body {
+	background-color: #95a5a6;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	display: inline-block;
+	width: 500px;
+}
+
+.jumbotron {
+	position: relative;
+	height: 200px;
+	background-color: #40d47e;
+}
+
+.jumbotron h1 {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-family: sans-serif;
+	text-align: initial;
+	vertical-align: bottom;
+}
+
+.border {
+	height: .3em;
+}
+
+.jumbo.border {
+	background-color: #27ae60;
+}
+
+.dark.border {
+	background-color: #2c3e50;
+}
+
+nav {
+	height: 40px;
+	line-height: 40px;
+	background-color: #34495e;
+	text-align: right;
+
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+nav a, aside a {
+	font-size: 80%;
+	text-decoration: none;
+	color: white;
+	//font-weight: bolder;
+}
+
+.article-content {
+
+	background-color: #ecf0f1;
+	padding-top: 1px; //idk why this is necessary, but it is. look into this more.
+	text-align: left;
+}
+
+aside {
+	float: right;
+	position: relative;
+	left: 160px;
+	height: 200px;
+	width: 150px;
+	background-color: #ecf0f1;
+	text-align: left;
+}
+
+aside li {
+	display: block;
+	color: #7f8c8d;
+	margin-left: 15px;
+}
+
+aside a {
+	color: #34495e;
+}
+
+aside p {
+	font-size: 75%;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-bottom: 6px;
+}
+
+aside .dark.border {
+	margin-top: 25px;
+}
+
+article {
+	text-align: left;
+
+}
+
+.article-title {
+
+}
+
+article p {
+
+}
+
+.section-divider {
+	height: 1px;
+	background-color: grey;
+}
+
+.code-block {
+	background-color: grey;
+}
+
+.img {
+	height: 100px;
+	background-color: grey
+
+}
