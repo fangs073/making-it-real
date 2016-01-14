@@ -11,7 +11,7 @@
 	<div class="content">
 		<div class="container">
 			<div class="jumbotron">
-				<h1>My Website</h1>
+				<h1 class="jumbotron-title">My Website</h1>
 			</div>
 			
 		</div>
@@ -19,9 +19,9 @@
 		<div class="container">
 			<nav class="navbar">
 				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ALL POSTS</a></li>
-					<li><a href="#">ABOUT US</a></li>
+					<li><a class="navbar-link" href="#">HOME</a></li>
+					<li><a class="navbar-link" href="#">ALL POSTS</a></li>
+					<li><a class="navbar-link" href="#">ABOUT US</a></li>
 				</ul>
 			</nav>
 			
@@ -29,143 +29,146 @@
 
 		
 
-		<div class="article-content">
-			<aside>
-				<p>Recent Posts</p>
+		<div class="main-content">
+			<aside class="sidebar container">
+				<p class="sidebar-header">Recent Posts</p>
 				<ul>
-					<li><a href="#">Another Post</a></li>
-					<li><a href="#">A Cool Story</a></li>
-					<li><a href="#">Useful Tips and Tricks</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">Another Post</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">A Cool Story</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">Useful Tips and Tricks</a></li>
 				</ul>
-				<p>Categories</p>
+				<p class="sidebar-header">Categories</p>
 				<ul>
-					<li><a href="#">Web</a></li>
-					<li><a href="#">Dev</a></li>
-					<li><a href="#">CSS</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">Web</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">Dev</a></li>
+					<li class="sidebar-item"><a class="sidebar-link" href="#">CSS</a></li>
 				</ul>
 				
 			</aside>
 			
-			<article>
+			<article class="article">
 				<section>
 					<h2 class="article-title">Article Title</h2>
-					<p>Lorem ipsum that shit</p>
-					<p>Lorem ipsum? Ipso lorem.</p>
+						<p class="article-para">He says he's found the main computer to power the <a class="article-link" href="#">tractor beam</a> that's holding the ship here. He'll try to make the precise location appear on the monitor. The tractor beam is coupled to the <span class="article-ital">main reactor in seven locations.</span> A power loss at one of the terminals will allow the ship to leave. I don't think you boys can help. I must go alone. Whatever you say. I've done more that I bargained for on this trip already. Be patient, Luke. <span class="article-emphasize">Stay and watch over the droids.</span> But he can...</p>
+						<p class="article-para">Nam a tellus nunc. Nulla vehicula gravida eros et placerat. Praesent posuere ullamcorper hendrerit. Suspendisse et ante pulvinar, scelerisque lorem vitae, accumsan eros. Quisque vulputate mattis arcu, sit amet mollis ante tempor a. Nam felis augue, efficitur ut ipsum vel, iaculis imperdiet sem. Phasellus finibus diam ornare sagittis tincidunt. Suspendisse nisl libero, sollicitudin vitae cursus eu, molestie cursus urna. Suspendisse convallis, nunc et faucibus aliquet, elit urna efficitur ipsum, a condimentum ligula tortor non purus. Integer feugiat euismod nisi, sed aliquam sem convallis eget. Aenean risus urna, sagittis non eleifend ultricies, fringilla id lorem. Cras iaculis ornare eros. Pellentesque imperdiet sodales nulla in tristique. Quisque vel tortor nunc. Pellentesque ullamcorper placerat auctor.</p>
 				</section>
 				<section>
 					<h3 class="section-title">Section Title</h3>
-					<p>Lorem ipsum? I hardly knew 'em!</p>
-					<table>
-						<tr>
-							<th>What</th>
-							<th>Where</th>
-							<th>How</th>
-						</tr>
-						<tr>
-							<td>HTML</td>
-							<td>Lorem</td>
-							<td>Go!</td>
-						</tr>
-						<tr>
-							<td>CSS</td>
-							<td>Ipsum</td>
-							<td>Try!</td>
-						</tr>
-						<tr>
-							<td>JS</td>
-							<td>Fuck 'em</td>
-							<td>View!</td>
-						</tr>
+					<p class="article-para">
+						Are they away? They have just made the jump into hyperspace. You're sure the homing beacon is secure aboard their ship? I'm taking an awful risk, Vader. This had better work.
+					</p>
+					<table class="link-table">
+						<thead>
+							<tr>
+								<th>What</th>
+								<th>Where</th>
+								<th>How</th>
+							</tr>
+						<thead>
+						<tbody>
+							<tr>
+								<td>HTML</td>
+								<td>Luke...Luke...Do not...Do not underestimate the powers of the Emperor, or suffer your father's fate, you will. Luke, when gone am I, the last of the Jedi will you be. Luke, the Force runs strong in your family. Pass on what you have learned, Luke... There is...another...Sky...Sky...walker.</td>
+								<td><a href="#">Go!</a></td>
+							</tr>
+							<tr>
+								<td>CSS</td>
+								<td>Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt.</td>
+								<td><a href="#">Try!</a></td>
+							</tr>
+							<tr>
+								<td>JS</td>
+								<td>Form up and stay alert. We could run out of space real fast. Copy gold leader</td>
+								<td><a href="#">View!</a></td>
+							</tr>
+						</tbody>
 					</table>
-					<p>Lorem Ipsum</p>
+						<p class="article-para">Chewie! Get behind me! Get behind me! Can't get out that way. Looks like you managed to cut off our only escape route. Maybe you'd like it back in your cell, Your Highness. See-Threepio! See-Threepio! Yes sir? We've been cut off! Are there any other ways out of the cell bay?...What was that? I didn't copy! I said, all systems have been alerted to your presence, sir. The main entrance seems to be the only way in or out, all other information on your level is restricted.</p>
 				</section>
 				<section>
 					<h3 class="section-title">Section Title</h3>
-					<p>Lorem Ipsum</p>
+						<p class="article-para">He says the restraining bolt has short circuited his recording system. He suggests that if you remove the bolt, he might be able	 to play back the entire recording. H'm? Oh, yeah, well, I guess you're too small to run away on me if I take this off! Okay. There you go. Well, wait a minute. Where'd she go? Bring her back! Play back the entire message. What message? The one you're carrying inside your rusty innards! Luke? Luke! Come to dinner! All right, I'll be right there, Aunt Beru. I'm sorry, sir, but he appears to have picked up a slight flutter. Well, see what you can do with him. I'll be right back. Just you reconsider playing that message for him. No, I don't think he likes you at all. No, I don't like you either.</p>
 				</section>
 				<section>
 					<h3 class="section-title">Section Title</h3>
-					<p>Lorem Ipsum</p>
+						<p class="article-para">Stretch out with your feelings. You see, you can do it. I call it luck. In my experience, there's no such thing as luck. Look, going good against remotes is one thing. Going good against the living? That's something else. Looks like we're coming up on Alderaan. You know, I did feel something. I could almost see the remote. That's good. You have taken your first step into a larger world.</p>
 					<div class="code-block">
-						<p>$('#myElement').click(function(){<br>&nbsp&nbsp&nbsp console.log('Clicked!')<br>});</p>
+						<p class="code-block-content">$('#myElement').click(function(){<br>&nbsp&nbsp&nbsp console.log('Clicked!')<br>});</p>
 					</div>
-					<p>Lorem Ipsum</p>
-					<p>Lorem Ipsum</p>
+						<p class="article-para">Stand by, Chewie, here we go. Cut in the sublight engines. What the...? Aw, we've come out of hyperspace into a meteor shower. Some kind of asteroid collision. It's not on any of the charts. What's going on? Our position is correct, except...no, Alderaan! What do you mean? Where is it? Thats what I'm trying to tell you, kid. It ain't there. It's been totally blown away. What? How? Destroyed...by the Empire!</p>
+						<p class="article-para">Owen, he can't stay here forever. Most of his friends have gone. It means so much to him. I'll make it up to him next year. I promise. Luke's just not a farmer, Owen. He has too much of his father in him. That's what I'm afraid of.</p>
 				</section>
 				<section>
 					<h3 class="section-title">Section Title</h3>
-					<p>Lorem Ipsum</p>
+						<p class="article-para">Sir, Commander Skywalker hasn't come in through the south entrance. He might have forgotten to check in. Not likely. Are the speeders ready? Not yet. We're having some trouble adapting them to the cold. Then we'll have to go out on Tauntauns. Sir, the temperature's dropping too rapidly. That's right. And my friends out in it. I'll cover sector twelve. Have com-control set screen alpha. Your Tauntaun'll freeze before you reach the first marker. Then I'll see you in hell!</p>
 					<div class="img"></div>
-					<p>Lorem Ipsum</p>
-					<ol>
-						<li><strong>Create HTML:</strong> Lorem Dipshit</li>
-						<li><strong>Make Pretty with CSS:</strong>Lauren Ipsum</li>
-						<li><strong>Profit:</strong>Ipsum.it</li>
+						<p class="article-para">Luke, we're ready for takeoff. Good luck, Lando When we find Jabba the Hut and that bounty hunter, we'll contact you. I'll meet you at the rendezvous point on Tatooine. Princess, we'll find Han. I promise. Chewie, I'll be waiting for your signal. Take care, you two. May the Force be with you. Ow!</p>
+					<ol class="article-list">
+						<li class="list-entry"><strong>Create HTML:</strong> Well, Your Highness, I guess this is it. That's right. Well, don't get all mushy on me. So long, Princess. Han! Yes, Your Highnessness? I thought you decided to stay. Well, the bounty hunter we ran into on Ord Mantell changed my mind. Han, we need you! We? Yes. Oh, what about you need? I need? I don't know what you're talking about. You probably don't. And what precisely am I supposed to know?</li>
+						<li class="list-entry"><strong>Make Pretty with CSS:</strong> Well, Your Highness, I guess this is it. That's right. Well, don't get all mushy on me. So long, Princess. Han! Yes, Your Highnessness? I thought you decided to stay. Well, the bounty hunter we ran into on Ord Mantell changed my mind. Han, we need you! We? Yes. Oh, what about you need? I need? I don't know what you're talking about. You probably don't. And what precisely am I supposed to know?</li>
+						<li class="list-entry"><strong>Profit:</strong> Now will you move along, little fella? We're got a lot of work to do. No! No, no! Stay and help you, I will. Find your friend, hmm? I'm not looking for a friend, I'm looking for a Jedi Master. Oohhh. Jedi Master. Yoda. You seek Yoda. You know him? Mmm. Take you to him, I will. Yes, yes. But now, we must eat. Come. Good food. Come. Come, come. Stay here and watch after the camp, Artoo.</li>
 					</ol>
 				</section>
-				<p class="article-timestamp">Posted by</p>
+				<p class="article-timestamp">Posted by <span class="article-author">Author</span> under <span class="article-category"> Web > Dev</span> on <time class="article-time">August 22, 1485</time></p>
 			</article>
 			
-			<div class="comment form">
-				<h2 class="article-title">Comments</h2>
-				<h4>USER INFO</h4>
-				<form>
-					Email: <input type="text"><br>
-					Display Name: <input type="text"><br>
-					Website: <input type="text"><br>
-					<h4>Comment</h4>
-					<textarea></textarea>
-					<input type="submit" value="Submit">
+			<div class="comment">
+				<h2 class="comments-top-title">Comments</h2>
+				<div class="comments-section-title-container">
+					<h4 class="comments-section-title">USER INFO</h4>
+				</div>
+				<form class="comment-form">
+					<div class="comment-fields">
+						Email <input type="text"><br>
+						Display Name <input type="text"><br>
+						Website <input type="text"><br>
+					</div>
+					<div class="comments-section-title-container">
+						<h4 class="comments-section-title">COMMENT</h4>
+					</div>
+					<textarea class="comment-textarea"></textarea>
+					<input class="submit" type="submit" value="Submit">
 				</form>
 			</div>
 		
-			<div class="comment stream">
-				<div class="post container">
-					<div class="post header">
-						<img src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
-						<p class="username">User 1</p>
-						<time>October 14, 1066</time>
+
+			<div class="comment-stream">
+				<div class="post-container">
+					<img class="comment-avatar" src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
+					<p class="comment-username">General Dodonna</p>
+					<time class="comment-time">October 14, 1066</time>
+					<div class="comment-content">
+						<p>A precise hit will start a chain reaction which should destroy the station. Only a precise hit will set off a chain reaction. The shaft is ray-shielded, so you'll have to use proton torpedoes.</p>
 					</div>
-					<div class="post content">
-						<p>Lo!  Look upon the field where I grow my Lorem Ipsums, and see that it is barren.</p>
+
+					<div class="post-container reply">
+						<img class="comment-avatar" src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
+						<p class="comment-username">Red 2</p>
+						<time class="comment-time">October 14, 1066</time>
+						<div class="comment-content">
+							<p>That's impossible! Even for a computer.</p>
+						</div>
 					</div>
+
+					<div class="post-container reply">
+						<img class="comment-avatar" src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
+						<p class="comment-username">Red 5</p>
+						<time class="comment-time">October 14, 1066</time>
+						<div class="comment-content">
+							<p>It's not impossible. I used to bullseye womp rats in my T-16 back home, they're not much bigger than two meters.</p>
+						</div>
+					</div>		
 				</div>
-				<div class="reply">
-					<div class="reply header">
-						<img src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
-						<p class="username">User 1</p>
-						<time>October 14, 1066</time>
-					</div>
-					<div class="reply content">
-						<p>I replieth to thee, Hellion!</p>
-					</div>
-				</div>
-				<div class="reply">
-					<div class="reply header">
-						<img src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
-						<p class="username">User 1</p>
-						<time>October 14, 1066</time>
-					</div>
-					<div class="reply content">
-						<p>My crop of corn is but a field of tares, <br>
-						And all my good is but a dank-ass blunt.</p>
-					</div>
-				</div>
-				<div class="post container">
-					<div class="post header">
-						<img src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
-						<p class="username">User 1</p>
-						<time>October 14, 1066</time>
-					</div>
-					<div class="post content">
-						<p>Lo!  Look upon the field where I grow my Lorem Ipsums, and see that it is barren.</p>
-					</div>
+				<div class="post-container">
+						<img class="comment-avatar" src="file:///Users/student/projects/exercise-starters/html/making-it-real/placeholder50x50.png">
+						<p class="comment-username">Raekwon the chef</p>
+						<time class="comment-time">October 14, 1066</time>
+						<div class="comment-content">
+							<p>Figured out I went the wrong route -- so I got with a sick-tight clique and went all out.  Cathing keys from cross seas, rolling in MPVs -- every week we made forty G's.</p>
+						</div>
 				</div>
 			</div>
-
 		</div>
-		
-	
 	</div>
 
 	</body>

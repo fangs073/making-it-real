@@ -1,5 +1,5 @@
 body {
-	background-color: #95a5a6;
+	background-color: #7f8c8d;
 	text-align: center;
 	font-family: sans-serif;
 }
@@ -21,7 +21,7 @@ ul {
 	border-bottom: 5px #27ae60 solid;
 }
 
-.jumbotron h1 {
+.jumbotron-title {
 	position: absolute;
 	bottom: 0;
 	color: white;
@@ -42,7 +42,7 @@ ul {
 	background-color: #2c3e50;
 }
 
-nav {
+.navbar {
 	height: 40px;
 	line-height: 40px;
 	background-color: #34495e;
@@ -50,34 +50,31 @@ nav {
 	border-bottom: 5px #2c3e50 solid;
 }
 
-nav ul {
-	margin: 0;
-}
 
-nav li {
+.navbar li {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 6px;
 }
 
-nav a, aside a {
+.navbar-link, .sidebar-link {
 	font-size: 80%;
 	text-decoration: none;
 	color: white;
 	//font-weight: bolder;
 }
 
-.article-content {
-
+.main-content {
+	position: relative;
 	background-color: #ecf0f1;
-	padding-top: 1px; //idk why this is necessary, but it is. look into this more.
 	text-align: left;
+	padding-bottom: 20px;
 }
 
-aside {
+.sidebar.container {
 	float: right;
-	position: relative;
-	left: 160px;
+	position: absolute;
+	left: 510px;
 	height: 200px;
 	width: 150px;
 	background-color: #ecf0f1;
@@ -85,50 +82,211 @@ aside {
 	border-bottom: 5px #2c3e50 solid;
 }
 
-aside li {
+.sidebar-item {
 	display: block;
 	color: #7f8c8d;
 	margin-left: 15px;
 }
 
-aside a {
+.sidebar-link {
 	color: #34495e;
 }
 
-aside p {
+.sidebar-header {
 	font-size: 75%;
 	font-weight: bold;
 	margin-left: 5px;
 	margin-bottom: 6px;
 }
 
-aside .dark.border {
-	margin-top: 25px;
+.article, .comment {
+	padding: 10px 20px;
 }
 
-article, .comment {
-	text-align: left;
-	padding: 20px;
+.article-title, .comments-top-title {
+	font-size: 110%;
 }
 
-.article-title {
-
+.article-para {
+	line-height: 150%;
+	padding: 10px 20px;
+	font-size: small;
 }
 
-article p {
+.article-link {
+	text-decoration: none;
+	color: orange;
+}
 
+.article-ital {
+	font-style: italic;
+}
+
+.article-emphasize {
+	color: black;
+	font-weight: bold;
 }
 
 .section-title {
 	border-bottom: 1px solid grey;
+	padding: 5px 10px;
+	font-size: 100%
 }
 
 .code-block {
-	background-color: grey;
+	background-color: #bdc3c7;
+	font-family: courier;
+	font-size: small;
+	padding: 15px 20px;
+	font-size: small;
 }
 
 .img {
 	height: 100px;
 	background-color: grey
+}
 
+.link-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.link-table thead {
+	background-color: #bdc3c7;
+}
+
+.link-table th, .link-table td {
+	border: 1px #95a5a6 solid;
+	font-size: small;
+	padding: 5px 10px;
+}
+
+.link-table th {
+	border: 1px solid grey;
+}
+
+.link-table a {
+	text-decoration: none;
+	color: white;
+	background-color: #3498db;
+	padding: 5px 20px;
+	font-weight: lighter;
+	font-size: small;
+}
+
+.list-entry {
+	line-height: 150%;
+	font-size: small;
+	margin-bottom: 15px;
+}
+
+.article-timestamp {
+	color: grey;
+	font-size: small;
+}
+
+.article-author, .article-time , .article-category {
+	font-weight: bold;
+}
+
+.comments-section-title {
+	color: grey;
+	font-size: small;
+	font-weight: initial;
+	background-color: #ecf0f1;
+	margin: 10px 37px;
+    transform: translateY(120%);
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.comments-section-title-container {
+	border-bottom: 1px grey solid;
+	margin-bottom: 25px;
+}
+
+.comment-textarea {
+	width: 453px;
+	height: 100px;
+}
+
+.comment-form {
+	font-size: small;
+}
+
+.comment-fields input {
+	height: 20px;
+	width: 80%;
+	margin-bottom: 5px;
+}
+
+.comment-fields {
+	text-align: right;
+}
+
+.submit {
+	display: block;
+	margin-top: 20px;
+	background-color: #c0392b;
+	width: 100%;
+	height: 40px;
+	border: none;
+	color: white;
+	font-size: larger;
+}
+
+.comment-stream {
+	padding-left: 20px;
+}
+
+.post-header {
+	display: block;
+}
+
+.post-header img, .post-header p, .post-header time {
+	display: inline-block;
+}
+
+.post-content {
+	display: block;
+}
+
+.comment-avatar {
+	float: left;
+}
+
+.post-container {
+	padding-left: 5px;
+}
+
+.reply {
+	border-left: 1px solid grey;
+	margin: 0 0 -16px 40px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+}
+
+.reply:last-of-type {
+	padding-bottom: 0;
+	margin-bottom: 15px;
+}
+
+.comment-avatar {
+	margin-right: 15px;
+}
+
+.comment-username {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.comment-time {
+	font-style: italic;
+	font-size: 90%;
+	color: grey;
+}
+
+.comment-content {
+	font-size: small;
+	margin-top: 20px;
 }
